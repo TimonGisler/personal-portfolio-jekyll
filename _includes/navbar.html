@@ -33,10 +33,12 @@
 
 
     function sidebarHandler() {
-        if (navbar.style.transform === "translateX(-100%)") {
-            navbar.style.transform ="translateX(0)"
+        if (navbar.classList.contains("-translate-x-full")) {
+            navbar.classList.remove("-translate-x-full")
+            navbar.classList.add("-translate-x-0")
         } else {
-            navbar.style.transform ="translateX(-100%)"
+            navbar.classList.remove("-translate-x-0")
+            navbar.classList.add("-translate-x-full")
         }
     }
 </script>
