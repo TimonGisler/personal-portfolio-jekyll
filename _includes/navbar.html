@@ -1,24 +1,21 @@
-<nav class="py-2.5 bg-black text-white">
-    <div class="">
-        <!-- Burger menu -->
-        <button type="button" class="hidden items-center p-2 rounded-lg text-gray-400 hover:bg-gray-700">
-            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                <path
-                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" />
-            </svg>
-        </button>
+<nav class="py-2.5 bg-black text-white fixed md:static md:h-auto h-screen">
+    <!-- open/close menu -->
+    <button type="button" class="md:hidden absolute items-center p-2 rounded-lg text-gray-400 hover:bg-gray-700 -right-10 top-1/2 bg-red-800 md">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+            <path
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" />
+        </svg>
+    </button>
 
-        <div id="nav-content" class="fixed">
-            <h1>Timon Gisler</h1>
+    <div id="nav-content" class="md:fixed">
+        <h1>Timon Gisler</h1>
 
-            <!-- Links -->
-            <ol class="">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projekte</a></li>
-                <li><a href="#">Projekte</a></li>
-            </ol>
-        </div>
-
+        <!-- Links -->
+        <ol class="">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projekte</a></li>
+            <li><a href="#">Projekte</a></li>
+        </ol>
     </div>
 </nav>
