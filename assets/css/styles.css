@@ -566,44 +566,12 @@ video {
   position: absolute;
 }
 
-.-right-10 {
-  right: -2.5rem;
-}
-
-.top-1\/2 {
-  top: 50%;
-}
-
-.top-1\/4 {
-  top: 25%;
-}
-
-.top-\[1\/6\] {
-  top: 1/6;
+.left-full {
+  left: 100%;
 }
 
 .top-\[10\%\] {
   top: 10%;
-}
-
-.-right-full {
-  right: -100%;
-}
-
-.-right-12 {
-  right: -3rem;
-}
-
-.-right-16 {
-  right: -4rem;
-}
-
-.-right-14 {
-  right: -3.5rem;
-}
-
-.left-full {
-  left: 100%;
 }
 
 .grid {
@@ -614,32 +582,16 @@ video {
   height: 100vh;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
 .h-10 {
   height: 2.5rem;
-}
-
-.h-5 {
-  height: 1.25rem;
 }
 
 .w-52 {
   width: 13rem;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
 .w-10 {
   width: 2.5rem;
-}
-
-.w-5 {
-  width: 1.25rem;
 }
 
 .transform {
@@ -650,18 +602,14 @@ video {
   align-items: center;
 }
 
-.rounded-md {
-  border-radius: 0.375rem;
-}
-
 .rounded-r-md {
   border-top-right-radius: 0.375rem;
   border-bottom-right-radius: 0.375rem;
 }
 
-.bg-black {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-red-800 {
@@ -683,14 +631,20 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.text-white {
+.text-black {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .transition-all {
@@ -699,10 +653,13 @@ video {
   transition-duration: 150ms;
 }
 
-h1 {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+/* h1{
+    @apply text-white
 }
+
+.shadow-right{
+    box-shadow: 5px 0 5px -7px #333;
+} */
 
 .hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1;
