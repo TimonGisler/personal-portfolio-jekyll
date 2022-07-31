@@ -648,6 +648,10 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
