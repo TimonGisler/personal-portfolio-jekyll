@@ -603,6 +603,10 @@ video {
   height: 2.5rem;
 }
 
+.h-52 {
+  height: 13rem;
+}
+
 .w-52 {
   width: 13rem;
 }
@@ -644,6 +648,11 @@ video {
 .border-blue-700 {
   --tw-border-opacity: 1;
   border-color: rgb(29 78 216 / var(--tw-border-opacity));
+}
+
+.border-red-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
 }
 
 .bg-gray-100 {
