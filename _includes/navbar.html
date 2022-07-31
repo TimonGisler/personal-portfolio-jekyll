@@ -9,12 +9,7 @@
         </svg>
     </button>
 
-
-    <div id="logo" class="p-9 border-b border-blue-700 flex flex-col items-center">
-        <h1 class="px text-3xl text-blue-700 text-center">Timon Gisler</h1>
-        <h2 class="text-center text-xs">Junior Developer</h2>
-    </div>
-
+    {% include logo.html %}
 
     <!-- Links -->
     <ol class="">
@@ -29,7 +24,6 @@
 <script>
     let sideBarButton = document.getElementById("sidebarButton");
     let navbar = document.getElementById("navbar");
-
 
     function invertVisibilityOfSidebar() {
         if (navbar.classList.contains("-translate-x-full")) {
