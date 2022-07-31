@@ -1,0 +1,7 @@
+<ol class="">
+    {% for navbarLink in site.data.navbarLinks %}
+    <li class="hover:bg-blue-300">
+        <a href="{{navbarLink.link}}">{{navbarLink.name}}</a>
+    </li>
+    {% endfor %}
+</ol>
