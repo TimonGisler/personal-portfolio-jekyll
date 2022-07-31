@@ -689,6 +689,15 @@ video {
     position: static;
   }
 
+  .md\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  .md\:top-0 {
+    top: 0px;
+  }
+
   .md\:hidden {
     display: none;
   }
