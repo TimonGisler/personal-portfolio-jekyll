@@ -13,3 +13,7 @@
 * {
     @apply text-gray-600;
 }
+
+.card{
+    @apply max-w-2xl px-8 py-5 mx-auto bg-white rounded-lg shadow-md;
+}
