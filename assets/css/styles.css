@@ -612,6 +612,14 @@ video {
   height: fit-content;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
+.h-36 {
+  height: 9rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -648,6 +656,14 @@ video {
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-36 {
+  width: 9rem;
 }
 
 .min-w-fit {
