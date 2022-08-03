@@ -6,10 +6,10 @@
     <div class="card grid md:grid-cols-2 gap-4">
 
         <div id="info-list">
-            <ul>
+            <ul class="grid gap-2">
                 {% for infoAboutMe in site.data.infoAboutMe %}
                 <li class="grid grid-cols-[6rem_1fr] gap-4"> 
-                    <p>{{infoAboutMe.infoName}}</p> <p> {{infoAboutMe.value}}</p>
+                    <p class="bg-blue-700 text-white w-fit px-1">{{infoAboutMe.infoName}}</p> <p> {{infoAboutMe.value}}</p>
                 </li>
                 {% endfor %}
             </ul>
