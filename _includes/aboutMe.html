@@ -1,16 +1,17 @@
 <div id="aboutMe" class="flex flex-col items-center">
     {% include aboutMeComponents/avatar.html %}
 
-
     <h1>About me</h1>
 
     <div class="card grid grid-cols-2">
 
         <div id="info-list">
             <ul>
+                {% for infoAboutMe in site.data.infoAboutMe %}
                 <li>
-                    <p><span>Age: </span> 1223</p>
+                    <p><span>{{infoAboutMe.infoName}} </span> {{infoAboutMe.value}}</p>
                 </li>
+                {% endfor %}
             </ul>
         </div>
 
