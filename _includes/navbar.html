@@ -1,5 +1,6 @@
-<nav id="navbar" class="bg-white fixed md:sticky md:top-0 h-screen w-52 md:w-auto transition-all md:transform-none -translate-x-full">
-    <!-- open/close menu -->
+<nav id="navbar"
+    class="bg-white fixed md:sticky md:top-0 h-screen w-52 md:w-auto transition-all md:transform-none -translate-x-full">
+    <!-- open/close menu button -->
     <button type="button" id="sidebarButton"
         class="md:hidden absolute items-center p-2 rounded-r-md text-gray-400 hover:bg-gray-300 left-full top-[10%] bg-white md"
         onclick="invertVisibilityOfSidebar()">
@@ -9,9 +10,21 @@
         </svg>
     </button>
 
-    {% include navbarComponents/logo.html %}
+    <!-- logo / my name nicely printed -->
+    <div id="logo" class="p-9 border-b-2 border-blue-700 flex flex-col items-center">
+        <h1 class="px text-3xl text-blue-700 text-center">Timon Gisler</h1>
+        <h2 class="text-center text-xs">Junior Developer</h2>
+    </div>
 
-    {% include navbarComponents/navbarLinks.html %}
+    <!--navbar links -->
+    <ol class="">
+        {% for navbarLink in site.data.navbarLinks %}
+        <li
+            class="hover:bg-blue-100 cursor-pointer h-12 flex items-center pl-4 hover:border-l-4 hover:border-blue-800 border-b border-blue-800">
+            <a href={{navbarLink.link}}>{{navbarLink.name}}</a>
+        </li>
+        {% endfor %}
+    </ol>
 
 
 </nav>
