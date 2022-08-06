@@ -7,9 +7,11 @@
 
         <div class="p-6 pt-0">
             <!-- tags -->
-            <div id="tags" class="pt-2">
-                {% include tags.html %}
-            </div>
+            <ul id="tags" class="pt-2 flex gap-2">
+                {%- for tag in include.tags -%}
+                    {% include tags.html tagName=tag%}
+                {%- endfor -%} 
+            </ul>
 
             <!-- Content text -->
             <div class="">
