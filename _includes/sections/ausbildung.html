@@ -1,3 +1,23 @@
 <section class="w-full flex flex-col items-center gap-6">
     {% include sectionTitle.html title="Ausbildung" %}
+
+    <!-- timeline -->
+
+    <div class="px-4 space-y-6">
+        <div
+            class="space-y-12 relative px-4 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700">
+            <!-- Card -->
+            {% include timelineCard.html %}
+
+            {% include timelineCard.html %}
+
+            {% include timelineCard.html %}
+            
+            <!-- TODO TGIS, add arrow downwards at end of line :) maybe -->
+        </div>
+    </div>
+
+
+
+
 </section>
