@@ -14,7 +14,8 @@
             <!-- Content text -->
             <div class="">
                 <h1 class="text-2xl font-medium pb-2">{{include.title}}</h1>
-                <p class="text leading-6">{{include.text}}</p>
+                <!-- remove all html formatting, only show first 156 symbols -->
+                <p class="text leading-6">{{ include.text | strip_html | truncate: 156 }} 
             </div>
         </div>
 

@@ -4,7 +4,7 @@
 
 
     {% for post in site.posts %}
-        {% include projectCard.html title=post.title text=post.excerpt image_url=post.card_image_url%}
+        {% include projectCard.html title=post.title text=post.content image_url=post.card_image_url%}
     {% endfor %}
 
 
