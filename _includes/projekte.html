@@ -3,8 +3,8 @@
 <div class="flex flex-wrap justify-center w-4/5 gap-12">
 
 
-    {% for project in site.data.projects %}
-        {% include projectCard.html title=project.title text=project.text image_url=project.card_image_url%}
+    {% for post in site.posts %}
+        {% include projectCard.html title=post.title text=post.excerpt image_url=post.card_image_url%}
     {% endfor %}
 
 
