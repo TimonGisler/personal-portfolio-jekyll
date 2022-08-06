@@ -1,11 +1,14 @@
-{% include sectionTitle.html title="Projekte" %}
+<section class="w-full flex flex-col items-center gap-6">
+    {% include sectionTitle.html title="Projekte" %}
 
-<div class="flex flex-wrap justify-center w-4/5 gap-12">
+    <div id="posts" class="flex flex-wrap justify-center w-4/5 gap-12">
 
 
-    {% for post in site.posts %}
+        {% for post in site.posts %}
         {% include projectCard.html title=post.title text=post.content image_url=post.card_image_url tags=post.tags%}
-    {% endfor %}
+        {% endfor %}
 
 
-</div>
+    </div>
+</section>
+
