@@ -1,3 +1,4 @@
 - name: mail
   value: timongisler@icloud.com
-  image: 
+  image_url: /assets/img/mail.svg
+  alt_image_description: Mail

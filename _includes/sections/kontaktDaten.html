@@ -6,7 +6,7 @@
         <ul>
             {% for contact in site.data.contacts %}
                 <li>
-                    {% include contact.html %}
+                    {% include contact.html image_url=contact.image_url alt_image_description=contact.alt_image_description value=contact.value%}
                 </li>
             {% endfor %}
         </ul>
