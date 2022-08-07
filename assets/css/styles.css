@@ -663,8 +663,20 @@ video {
   width: 1.5rem;
 }
 
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-56 {
+  width: 14rem;
+}
+
 .max-w-2xl {
   max-width: 42rem;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .-translate-x-full {
@@ -711,6 +723,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-x-8 {

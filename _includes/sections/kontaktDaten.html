@@ -1,15 +1,12 @@
 <section class="w-full flex flex-col items-center gap-6">
     {% include sectionTitle.html title="Kontaktdaten" %}
 
-    <div id="kontaktdaten" class="card w-4/5">
 
-        <ul>
-            {% for contact in site.data.contacts %}
-                <li>
-                    {% include contact.html image_url=contact.image_url alt_image_description=contact.alt_image_description value=contact.value%}
-                </li>
-            {% endfor %}
-        </ul>
+    <ul class="flex gap-8 flex-wrap justify-center">
+        {% for contact in site.data.contacts %}
+        {% include contact.html image_url=contact.image_url alt_image_description=contact.alt_image_description
+        value=contact.value%}
+        {% endfor %}
+    </ul>
 
-    </div>
 </section>
