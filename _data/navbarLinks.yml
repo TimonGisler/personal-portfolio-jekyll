@@ -1,11 +1,13 @@
 - name: About
-  link: "#"
+  link: 
 
 - name: Projekte
-  link: "#"
+  link: Projekte
 
-- name: About
-  link: "#"
+- name: Ausbildung
+  link: Ausbildung
 
-- name: About
-  link: "#"
+- name: Kontaktdaten
+  link: Kontaktdaten
+
+
