@@ -1097,6 +1097,10 @@ video {
     width: auto;
   }
 
+  .md\:w-4\/5 {
+    width: 80%;
+  }
+
   .md\:transform-none {
     transform: none;
   }
