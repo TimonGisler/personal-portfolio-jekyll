@@ -19,5 +19,10 @@
             <p class="text leading-6">{{ include.text | strip_html | truncate: 156 }}
         </div>
     </div>
+<div id="buttons" class="flex">
+    {% include projectCardButton.html text="Github" %}
+    {% include projectCardButton.html text="Demo" %}
+    {% include projectCardButton.html text="More" %}
 
+</div>
 </section>
