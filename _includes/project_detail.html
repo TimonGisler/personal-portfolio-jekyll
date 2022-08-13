@@ -1,3 +1,16 @@
 <div id={{include.id}} class="fixed bg-white z-50 top-10 left-10 right-10 hidden">
+
+    <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" onclick="closeProjectDetail('{{include.id}}')">6
+        <path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
+    </svg>
+
     test
 </div>
+
+<!-- TODO TGIS, this will get duplicated for every project... -->
+<script>
+    function closeProjectDetail(id){
+        let projectDetail = document.getElementById(id)
+        projectDetail.classList.add("hidden")
+    }
+</script>
