@@ -6,6 +6,8 @@ github_link: https://github.com/
 demo_link: "#"
 ---
 
+I remade my portfolio website with Jekyll a static site generator and tailwind. Github pages is the webhost.
+
 # Welcome 
 
 **Hello world**, this is my first Jekyll blog post.

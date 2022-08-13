@@ -1,4 +1,4 @@
-<a href={{include.href}} target={{include.target | default: "_blank"}} class="cursor-pointer border-r border-black last:border-none first:rounded-bl-2xl text-white dark:text-neutral-400 last:rounded-br-2xl flex-1 bg-blue-800 hover:bg-blue-900 font-medium text-sm py-2.5 flex items-center justify-center">
+<a href={{include.href | default:"javascript:test();"}} target={{include.target | default: "_self"}} class="cursor-pointer border-r border-black last:border-none first:rounded-bl-2xl text-white dark:text-neutral-400 last:rounded-br-2xl flex-1 bg-blue-800 hover:bg-blue-900 font-medium text-sm py-2.5 flex items-center justify-center">
     <svg aria-hidden="true" class="fill-white dark:fill-neutral-400 mr-2 -ml-1 w-5 h-5 " viewBox={{include.viewBox}} fill="currentColor">
         <path d={{include.d}}></path>
     </svg>
