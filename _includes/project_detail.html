@@ -1,19 +1,21 @@
 <div id={{include.id}} class="fixed top-0 right-0 left-0 bottom-0 hidden bg-black bg-opacity-50 transp z-50">
-    <div class="absolute dark:bg-neutral-800 inset-10 flex flex-col">
+    <div class="absolute dark:bg-neutral-800 inset-10 flex flex-col rounded-2xl">
         <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" onclick="closeProjectDetail('{{include.id}}')" class="self-end m-5">
             <path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
         </svg>
-    
-        test
-        <article>
-            {{include.text}}
+
+        <article class="flex flex-col items-center gap-6">
+            <h1 class="text-3xl">{{include.title}}</h1>
+            <main class="max-w-3xl">
+                {{include.text}}
+            </main>
         </article>
     </div>
 </div>
 
 <!-- TODO TGIS, this will get duplicated for every project... -->
 <script>
-    function closeProjectDetail(id){
+    function closeProjectDetail(id) {
         let projectDetail = document.getElementById(id)
         projectDetail.classList.add("hidden")
     }
