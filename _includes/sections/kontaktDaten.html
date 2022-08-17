@@ -1,0 +1,12 @@
+<section class="w-full flex flex-col items-center gap-6">
+    {% include sectionTitle.html title="Kontaktdaten" %}
+
+
+    <ul class="flex gap-8 flex-wrap justify-center">
+        {% for contact in site.data.contacts %}
+        {% include contact.html card_link=contact.card_link image_url=contact.image_url alt_image_description=contact.alt_image_description
+        value=contact.value%}
+        {% endfor %}
+    </ul>
+
+</section>
