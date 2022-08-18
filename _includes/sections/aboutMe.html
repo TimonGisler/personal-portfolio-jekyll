@@ -11,22 +11,17 @@
     <div class="card max-w-2xl grid md:grid-cols-2 gap-4 w-full">
 
         <div id="info-list" class="border-b-2 border-blue-700 pb-4 md:border-b-0 md:border-r-2">
-            <ul class="grid gap-x-8 gap-y-2 grid-cols-[min-content_1fr]">
-                {% for infoAboutMe in site.data.infoAboutMe %}
+            <ul class="grid gap-x-5 gap-y-3 grid-cols-[min-content_1fr]">
+                {% for infoAboutMe in site.data.infoAboutMe.profile %}
                     <p class="bg-blue-800 text-white w-fit h-fit px-1">{{infoAboutMe.infoName}}</p> <p class="break-all"> {{infoAboutMe.value}}</p>
                 {% endfor %}
             </ul>
         </div>
 
+        {% assign author = site.data.infoAboutMe.aboutMeText %}
         <div id="text-box">
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita
-                dicta totam aspernatur doloremque. Excepturi iste iusto eos enim
-                reprehenderit nisi, accusamus delectus nihil quis facere in modi ratione
-                libero! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita
-                dicta totam aspernatur doloremque. Excepturi iste iusto eos enim
-                reprehenderit nisi, accusamus delectus nihil quis facere in modi ratione
-                libero! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita
+                {{author}}
 
             </p>
         </div>
