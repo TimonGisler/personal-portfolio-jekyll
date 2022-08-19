@@ -1,17 +1,17 @@
 - name: mail
   value: timongisler@icloud.com
   card_link: "mailto:timongisler@icloud.com"
-  image_url: assets/img/mail.svg
+  image_url: assets\img\contactPictures\mail.svg
   alt_image_description: Mail
 
 - name: github
   value: "@TimonGisler"
   card_link: "https://github.com/TimonGisler"
-  image_url: assets/img/github.svg
+  image_url: assets\img\contactPictures\github.svg
   alt_image_description: Mail
 
 - name: linkedIn
   value: timongisler@icloud.com
   card_link: "https://ch.linkedin.com/in/timon-gisler-752068230/de"
-  image_url: assets/img/linkedIn.svg
+  image_url: assets\img\contactPictures\linkedIn.svg
   alt_image_description: Mail
