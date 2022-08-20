@@ -6,11 +6,4 @@ demo_link:
 github_link: https://github.com/TimonGisler/Tastaturschreiben
 ---
 
-A Spring Boot application with React as frontend and Postgresql as a db. The Spring Boot apllication got deployed on Google Clour Run, the postgresql runs on a
-virtual machine Google Cloud Compute Engine.
-
-# Welcome 
-
-
-
-I hope you like it!
+Ein Projekt das mit Javascript gemacht wurde. Es zählt alle Wörter die du in einer gewissen Zeitspanne eingegeben hast und gibt dann aus wie viele Wörter du insgesamt geschrieben hast und wie viele Wörter pro Minute. Den Timer kann man selber setzen.

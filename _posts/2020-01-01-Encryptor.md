@@ -6,11 +6,5 @@ demo_link:
 github_link: https://github.com/TimonGisler/Encryptor
 ---
 
-A Spring Boot application with React as frontend and Postgresql as a db. The Spring Boot apllication got deployed on Google Clour Run, the postgresql runs on a
-virtual machine Google Cloud Compute Engine.
+Ich habe ein Programm erstellt welches einen Text entgegen nimmt und diesen mithilfe dem Verschlüsselungsalgorithmus DES den Text verschlüsselt. DES steht für "Data Encryption Standard". Das Programm gibt auch aus welchen Algorithmus es verwendete und wenn man diesen irgendwo speichert, kann man den verschlüsselten text wieder entschlüsseln.
 
-# Welcome 
-
-
-
-I hope you like it!
