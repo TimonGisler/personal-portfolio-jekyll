@@ -1,5 +1,6 @@
 ---
 card_image_url: assets\img\projectPictures\Website.avif
+card_image_alt: Screenshot von dieser Webseite
 title:  Portfolio
 tags: html javascript css jekyll
 github_link: https://github.com/

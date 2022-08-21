@@ -1,5 +1,6 @@
 ---
 card_image_url: assets\img\projectPictures\Encryptor.avif
+card_image_alt: Encryptor
 title:  Encryptor
 tags: Javafx java
 demo_link: 
