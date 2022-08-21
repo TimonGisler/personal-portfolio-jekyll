@@ -5,8 +5,9 @@
 
 
         {% for post in site.posts %}
-        {% include projectCard.html id=post.title date=post.date title=post.title text=post.content image_url=post.card_image_url image_alt=post.card_image_alt tags=post.tags github_link=post.github_link demo_link=post.demo_link%}
-        {% include project_detail.html id=post.title title=post.title text=post.content %}
+            {% assign project_detail_id = post.title %}
+            {% include projectCard.html project_detail_id=project_detail_id date=post.date title=post.title text=post.content image_url=post.card_image_url image_alt=post.card_image_alt tags=post.tags github_link=post.github_link demo_link=post.demo_link%}
+            {% include project_detail.html id=project_detail_id title=post.title text=post.content %}
         {% endfor %}
 
 

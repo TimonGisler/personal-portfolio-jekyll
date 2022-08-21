@@ -52,7 +52,7 @@
     {% endif %}
 
     {% capture testid%}
-    "showDetailOfThisProject('{{include.id}}')"
+    "showDetailOfThisProject('{{include.project_detail_id}}')"
     {% endcapture %}
 
     <div id="buttons" class="flex justify-self-end">
@@ -63,8 +63,8 @@
 </section>
 
 <script>
-    function showDetailOfThisProject(id) {
-        let detailOfThisProject = document.getElementById(id);
+    function showDetailOfThisProject(project_detail_id) {
+        let detailOfThisProject = document.getElementById(project_detail_id);
         detailOfThisProject.classList.remove("hidden");
     }
 </script>
