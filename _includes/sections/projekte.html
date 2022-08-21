@@ -5,7 +5,7 @@
 
 
         {% for post in site.posts %}
-        {% include projectCard.html title=post.title text=post.content image_url=post.card_image_url image_alt=post.card_image_alt tags=post.tags github_link=post.github_link demo_link=post.demo_link%}
+        {% include projectCard.html date=post.date title=post.title text=post.content image_url=post.card_image_url image_alt=post.card_image_alt tags=post.tags github_link=post.github_link demo_link=post.demo_link%}
         {% include project_detail.html id=post.title title=post.title text=post.content %}
         {% endfor %}
 

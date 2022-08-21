@@ -2,9 +2,10 @@
 
 
     <!-- Image -->
-    <img class="aspect-video w-80 rounded-t-2xl object-contain object-center" src={{include.image_url}} alt={{include.image_alt}}>
+    <img class="aspect-video w-80 rounded-t-2xl object-contain object-top" src={{include.image_url}} alt={{include.image_alt}}>
 
     <div class="p-6 pt-0 flex-grow">
+        <p>Erstellt am: <span class="font-medium">{{include.date | date: "%Y-%m-%d"}}</span></p>
         <!-- tags -->
         <ul id="tags" class="pt-4 pb-2 flex gap-2">
             {%- for tag in include.tags -%}
