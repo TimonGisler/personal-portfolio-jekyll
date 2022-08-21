@@ -570,6 +570,11 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .inset-10 {
   top: 2.5rem;
   right: 2.5rem;
@@ -844,6 +849,10 @@ video {
 
 .justify-self-end {
   justify-self: end;
+}
+
+.overflow-auto {
+  overflow: auto;
 }
 
 .scroll-smooth {
