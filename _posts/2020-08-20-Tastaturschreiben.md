@@ -3,7 +3,7 @@ card_image_url: assets\img\projectPictures\Tastaturschreiben.avif
 card_image_alt: Screenshot von Tastaturschreiben Webseite
 title:  Tastaturschreiben
 tags: html javascript css
-demo_link: 
+demo_link: Webprojekte_demo/tastaturschreiben/tastaturschreiben.html
 github_link: https://github.com/TimonGisler/Tastaturschreiben
 ---
 

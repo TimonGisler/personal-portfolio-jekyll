@@ -1,0 +1,85 @@
+body {
+    /* Everything is in em, change font size here and everything will resize */
+    font-size: 23px;
+    color: white;
+    background-color: #262626;
+    text-align: center;
+    font-family: Orbitron;
+}
+
+#pomodoroClock {
+    margin-top: 10%;
+}
+
+#input {
+    justify-content: center;
+    display: flex;
+}
+
+#input :first-child {
+    margin-right: 50px;
+}
+
+#controls {
+    opacity: 90%;
+    gap: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+#output {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 19em;
+    border: 5px solid #B385F2;
+    border-radius: 30px;
+}
+
+#controls * {
+    width: 4em;
+    font-size: 1.1em;
+    margin-top: 1em;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#title {
+
+    color: #B385F2;
+}
+
+#start {
+
+    color: green;
+}
+
+#stop {
+    cursor: pointer;
+    color: red;
+}
+
+#reset{
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 16px;
+    }
+    #pomodoroClock {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    body {
+        font-size: 10px;
+    }
+    #pomodoroClock {
+        margin-top: 50%;
+    }
+}
+

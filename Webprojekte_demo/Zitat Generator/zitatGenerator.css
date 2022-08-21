@@ -1,0 +1,42 @@
+:root {
+    --color: rgb(31, 87, 155);
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color);
+    background-color: var(--color);
+}
+
+#nextButton {
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: var(--color);
+    filter: brightness(140%);
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+#quoteContainer {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 600px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 3px;
+}
