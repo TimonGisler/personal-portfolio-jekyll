@@ -7,7 +7,7 @@
     <div class="p-6 pt-0 flex-grow">
         <p>Erstellt am: <span class="font-medium">{{include.date | date: "%Y-%m-%d"}}</span></p>
         <!-- tags -->
-        <ul id="tags" class="pt-4 pb-2 flex gap-2">
+        <ul id="tags" class="pt-2 pb-2 flex gap-2">
             {%- for tag in include.tags -%}
             {% include tags.html tagName=tag%}
             {%- endfor -%}
