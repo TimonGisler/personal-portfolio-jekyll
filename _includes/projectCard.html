@@ -66,5 +66,8 @@
     function showDetailOfThisProject(project_detail_id) {
         let detailOfThisProject = document.getElementById(project_detail_id);
         detailOfThisProject.classList.remove("hidden");
+
+        let body = document.body
+        body.classList.add("overflow-hidden")
     }
 </script>

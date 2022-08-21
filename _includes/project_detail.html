@@ -1,7 +1,7 @@
 <div id={{include.id}} class="fixed top-0 right-0 left-0 bottom-0 hidden bg-black bg-opacity-50 z-50">
 
     <!-- Content Card -->
-    <div class="absolute dark:bg-neutral-800 bg-gray-100 inset-10 rounded-2xl max-w-7xl overflow-auto m-auto overscroll-contain">
+    <div class="absolute dark:bg-neutral-800 bg-gray-100 inset-10 rounded-2xl max-w-7xl overflow-auto m-auto">
         <!-- X (close) symbol  -->
         <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" onclick="closeProjectDetail('{{include.id}}')" 
         class="sticky top-5 right-5 dark:fill-gray-100 fill-gray-800 float-right">
@@ -22,5 +22,8 @@
     function closeProjectDetail(id) {
         let projectDetail = document.getElementById(id)
         projectDetail.classList.add("hidden")
+
+        let body = document.body
+        body.classList.remove("overflow-hidden")
     }
 </script>
