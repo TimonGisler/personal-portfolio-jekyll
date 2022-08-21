@@ -1,5 +1,5 @@
 ---
-card_image_url: assets\img\projectPictures\Website.jpg
+card_image_url: assets\img\projectPictures\Website.avif
 title:  Portfolio
 tags: html javascript css jekyll
 github_link: https://github.com/

@@ -1,5 +1,5 @@
 ---
-card_image_url: assets\img\projectPictures\Tastaturschreiben.png
+card_image_url: assets\img\projectPictures\Tastaturschreiben.avif
 title:  Tastaturschreiben
 tags: html javascript css
 demo_link: 
