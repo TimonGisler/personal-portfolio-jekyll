@@ -903,6 +903,15 @@ video {
   border-width: 1px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
+.border-x-4 {
+  border-left-width: 4px;
+  border-right-width: 4px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -913,6 +922,10 @@ video {
 
 .border-r {
   border-right-width: 1px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
 }
 
 .border-blue-700 {
@@ -928,6 +941,11 @@ video {
 .border-neutral-300 {
   --tw-border-opacity: 1;
   border-color: rgb(212 212 212 / var(--tw-border-opacity));
+}
+
+.border-blue-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(30 64 175 / var(--tw-border-opacity));
 }
 
 .bg-gray-100 {
@@ -1386,4 +1404,37 @@ video {
   .md\:border-r-2 {
     border-right-width: 2px;
   }
+}
+
+.\[\&\>p\]\:text-red-800>p {
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
+}
+
+.\[\&\>h2\]\:bg-blue-800>h2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
+.\[\&\>h2\]\:text-center>h2 {
+  text-align: center;
+}
+
+.\[\&\>h2\]\:text-2xl>h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.\[\&\>h2\]\:font-semibold>h2 {
+  font-weight: 600;
+}
+
+.\[\&\>h2\]\:text-red-800>h2 {
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
+}
+
+.\[\&\>h2\]\:text-blue-800>h2 {
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
 }

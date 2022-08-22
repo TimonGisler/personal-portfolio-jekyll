@@ -8,9 +8,9 @@
             <path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
         </svg>
 
-        <article class="flex flex-col items-center gap-6  h-full p-10">
-            <h1 class="text-3xl">{{include.title}}</h1>
-            <main class="max-w-3xl">
+        <article class="flex flex-col items-center gap-6 p-10">
+            <h1 class="text-3xl font-semibold border-blue-800 border-b-2">{{include.title}}</h1>
+            <main class="max-w-3xl [&>h2]:text-center [&>h2]:text-2xl [&>h2]:font-semibold">
                 {{include.text}}
             </main>
         </article>
