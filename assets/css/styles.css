@@ -958,8 +958,8 @@ video {
   fill: #fff;
 }
 
-.fill-gray-800 {
-  fill: #1f2937;
+.fill-neutral-600 {
+  fill: #525252;
 }
 
 .object-contain {
@@ -1177,21 +1177,23 @@ video {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 0.375rem;
+  width: 0.25rem;
 }
 
 /* Track */
 
 ::-webkit-scrollbar-track {
-  background: rgba(0, 106, 255, 0.16);
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 0.375rem;
 }
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(100 116 139/.5);
+  border-radius: 0.375rem;
+  background-color: rgb(163 163 163 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.9;
 }
 
 .before\:absolute::before {
@@ -1323,10 +1325,6 @@ video {
 
 .dark .dark\:fill-neutral-400 {
   fill: #a3a3a3;
-}
-
-.dark .dark\:fill-gray-100 {
-  fill: #f3f4f6;
 }
 
 .dark .dark\:text-neutral-400 {

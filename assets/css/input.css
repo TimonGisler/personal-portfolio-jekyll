@@ -21,17 +21,17 @@
 
 /* width */
 ::-webkit-scrollbar {
-    width: 0.375rem;
+    @apply w-1;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: rgba(0, 106, 255, 0.16);
     margin-top: 20px;
     margin-bottom: 20px;
+    @apply rounded-md;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(100 116 139/.5);
+    @apply bg-neutral-400 bg-opacity-90 rounded-md;
 }
