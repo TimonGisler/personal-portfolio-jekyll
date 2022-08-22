@@ -1403,6 +1403,14 @@ video {
   }
 }
 
+.\[\&\>h2\]\:mt-5>h2 {
+  margin-top: 1.25rem;
+}
+
+.\[\&\>h2\]\:mt-10>h2 {
+  margin-top: 2.5rem;
+}
+
 .\[\&\>h2\]\:text-center>h2 {
   text-align: center;
 }
@@ -1419,6 +1427,10 @@ video {
 .dark .\[\&\>h2\]\:dark\:text-gray-200>h2 {
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+.\[\&\>h3\]\:mt-5>h3 {
+  margin-top: 1.25rem;
 }
 
 .\[\&\>h3\]\:text-xl>h3 {
