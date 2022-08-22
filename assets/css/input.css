@@ -21,7 +21,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-    @apply w-1;
+    @apply w-2;
 }
 
 /* Track */
@@ -33,5 +33,5 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    @apply bg-neutral-400 bg-opacity-90 rounded-md;
+    @apply bg-neutral-400 rounded-md;
 }
