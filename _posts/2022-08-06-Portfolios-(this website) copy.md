@@ -11,6 +11,12 @@ I remade my portfolio website with Jekyll a static site generator and tailwind. 
 
 # Welcome 
 
+Heading level 2
+---------------
+
+test
+----
+
 **Hello world**, this is my first Jekyll blog post.
 this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.this is my first Jekyll blog post.
 
