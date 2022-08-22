@@ -4,13 +4,13 @@
     <div class="absolute inset-10 dark:bg-neutral-800 bg-gray-100 rounded-2xl max-w-7xl m-auto overflow-auto">
         <!-- X (close) symbol  -->
         <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" onclick="closeProjectDetail('{{include.id}}')" 
-        class="sticky top-5 right-5 dark:fill-neutral-400 fill-neutral-600 float-right">
+        class="sticky top-5 right-5 dark:fill-neutral-400 fill-neutral-600 float-right hover:brightness-75 cursor-pointer">
             <path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
         </svg>
 
         <article class="flex flex-col items-center gap-6 p-10">
             <h1 class="text-3xl font-semibold border-blue-800 border-b-2 dark:text-gray-200 text-gray-600">{{include.title}}</h1>
-            <main class="max-w-3xl [&>h2]:text-center [&>h2]:text-2xl [&>h2]:mt-10 [&>h2]:dark:text-gray-200 [&>h2]:font-semibold [&>h3]:text-xl [&>h3]:mt-5 [&>h3]:font-semibold [&>h3]:dark:text-gray-200">
+            <main class="max-w-3xl [&>h2]:text-center [&>h2]:text-2xl [&>h2]:mt-10 [&>h2]:dark:text-gray-200 [&>h2]:font-semibold [&>h3]:text-lg [&>h3]:mt-5 [&>h3]:font-semibold [&>h3]:dark:text-gray-200">
                 {{include.text}}
             </main>
         </article>
