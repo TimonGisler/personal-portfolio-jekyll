@@ -1,3 +1,8 @@
+logo:
+  siteOwner: Timon Gisler
+  siteOwnerOccupation: Junior Developer
+
+links:
 - name: Über mich
   link: 
 
@@ -9,5 +14,7 @@
 
 - name: Kontaktdaten
   link: Kontaktdaten
+
+
 
 
