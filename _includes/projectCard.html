@@ -31,7 +31,7 @@
     {% endcapture %}
 
     {% capture github_onClick %}
-    {% if {{include.github_link}}!=null%}
+    {% if {{include.github_link}}!=nil or {{include.github_link}}!=""%}
     "window.open('{{include.github_link}}','_blank');"
     {% else %}
     ""
